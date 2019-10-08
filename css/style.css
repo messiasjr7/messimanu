@@ -1,0 +1,158 @@
+body, html{
+    height:100%;
+    margin:0;
+    
+  }
+  
+h2 {
+  color: white;
+}
+ .bannerCentral {
+   padding-top: 200px;
+   margin-bottom: 4px;
+ }
+ .bannerFinal p {
+   padding-top: 200px;
+   text-align: left;
+   color: #ddd;
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+ 
+ }
+
+ .btn-success {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+  }
+  
+  a:hover{
+    
+    
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .bannerInicial, .bannerCentral, .bannerFinal{
+    position:relative;
+    background-attachment: scroll;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .bannerInicial{
+    background-image:url(../img/bannerPrincipal.jpg);
+    min-height:100%;
+    margin-bottom: 4px;
+  }
+  
+  .bannerCentral{
+    background-image:url(../img/concert-2616946_1280.jpg);
+    min-height:580px;
+   
+  }
+  
+  .bannerFinal{
+    background-image:url(../img/string-555070_1280.jpg);
+    min-height:400px;
+    
+  }
+  
+  .section{
+    text-align: center;
+    
+    overflow: hidden;
+  }
+  #instrumentos img {
+    display: table;
+    width: 400px;
+    height: 300px;
+  }
+ #violao {
+   color: white;
+   font-size: 30px;
+ }
+ #guitar {
+   color: white;
+   font-size: 30px;
+   
+ }
+ #contrabaixo {
+   color: white;
+   font-size: 30px;
+ }
+ footer {
+  color: black;
+  font-weight: bold;
+  background-color: darkgoldenrod;
+}
+  @media(max-width:568px){   
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .bannerInicial  {
+     background-size: cover;
+    }
+    
+    h1 {
+      font-size: 17px;
+      color: #ddd;
+      margin-top: 4px;
+      
+    }
+    
+    .btn-success {
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+    }
+    .bannerCentral {
+      height: 650px;
+      padding-top: 220px;
+      margin-bottom: 4px;
+    }
+    .bannerCentral h2 {
+      font-size: 20px;
+    }
+    .bannerCentral, .bannerFinal{
+      background-attachment:scroll;
+    }
+    .bannerFinal p {
+      padding-top: 200px;
+      text-align: left;
+      color: #ddd;
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      
+    }
+    #instrumentos {
+      background: black;
+    }
+    #instrumentos img {
+      
+      width: 100%;
+    }
+    #violao {
+      color: white;
+      font-size: 15px;
+    }
+    #guitar {
+      color: white;
+      font-size: 15px;
+      
+    }
+    #contrabaixo {
+      color: white;
+      font-size: 15px;
+    }
+    footer {
+      font-size: 12px;
+    }
+    
+  }
